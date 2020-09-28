@@ -11,8 +11,8 @@ if (years >= 18){
 }else{
 	alert ("Sorry, the content is available for viewing since the age of 18!");
 }
-{
-var input = document.getElementById("input_id").value;
-alert((Math.sqrt(input)));
+function Sqrt() {
+var b = document.getElementById("input_id").value;
+alert((Math.sqrt(b)));
 }
 	 
