@@ -1,6 +1,6 @@
-var ready = confirm("Are you ready?");
+ var ready = confirm("Are you ready?");
+alert ( ready );
 
-alert( ready );
 
 
 
@@ -11,7 +11,8 @@ if (years >= 18){
 }else{
 	alert ("Sorry, the content is available for viewing since the age of 18!");
 }
-function Sqrt() {
+
+function sqrt(){
 var b = document.getElementById("input_id").value;
 alert((Math.sqrt(b)));
 }
